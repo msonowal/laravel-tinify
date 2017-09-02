@@ -12,7 +12,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*",
+    "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*",
     "tinify/tinify":"~1.1"
   },
   "autoload": {
@@ -20,5 +20,15 @@
       "msonowal\\LaravelTinify\\": "src"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "extra": {
+      "laravel": {
+          "providers": [
+              "msonowal\\LaravelTinify\\LaravelTinifyServiceProvider"
+          ],
+          "aliases": {
+              "Tinify": "msonowal\\LaravelTinify\\Facades\\Tinify"
+          }
+      }
+    }
 }
