@@ -2,6 +2,9 @@
 
 This package provides integration with the Tinify a.k.a TinyPNG API.
 
+[![Latest Stable Version](https://poser.pugx.org/msonowal/laravel-tinify/v/stable)](https://packagist.org/packages/msonowal/laravel-tinify)
+[![Total Downloads](https://poser.pugx.org/msonowal/laravel-tinify/downloads)](https://packagist.org/packages/msonowal/laravel-tinify)
+
 The package simply provides a Tinify facade that acts as a wrapper to the [tinify/tinfiy-php](https://github.com/tinify/tinify-php)
 
 It was originaly developed by [Marvin Oßwald](https://github.com/marvinosswald/laravel-tinify)
