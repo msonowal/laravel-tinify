@@ -13,19 +13,20 @@ I added functionality to use of laravel bulit in config cache helper which was h
 So, I converted it to use the api_key from config which can be defined to load from `env` and still use the 
 `php artisan config:cache command` and it works.
 
+### For Laravel < 5.5, please use the [1.0.2 Tag](https://github.com/msonowal/laravel-tinify/tree/1.0.2)!
+
 ## Installation
 
-Install via composer by adding the following to your composer.json:
+Install the package via Composer:
 
-```json
-    ...
-    "require": {
-        "msonowal/laravel-tinify": "~1.0"
-    }
-    ...
+```
+   composer require msonowal/laravel-tinify
 ```
 
-Add service provider to ```config/app.php```:
+### Laravel 5.5+:
+
+If you don't use auto-discovery, add the ServiceProvider to the providers array in ```config/app.php```
+
 
 ```php
     ...
