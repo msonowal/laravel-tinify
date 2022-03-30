@@ -51,7 +51,5 @@ class LaravelTinifyServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../config/tinify.php' => config_path('tinify.php'),
         ], 'config');
-        // $path   =   realpath(__DIR__.'/../config/tinify.php');
-        // $this->publishes([$path => config_path('tinify.php')], 'config');
     }
 }
